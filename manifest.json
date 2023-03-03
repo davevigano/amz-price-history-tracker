@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "Amazon Price History Tracker",
+    "version": "1.0",
+    "description": "Adds a function to show an Amazon's product price history. Right click on the product page and select \"View price history for the current product\".",
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "browser_action" : {
+        "default_icon" : "icon-256.png"
+    },
+    "icons": {
+        "16": "icon-16.png",
+        "32": "icon-32.png",
+        "48": "icon-48.png",
+        "128":"icon-128.png"
+    },
+    "permissions": [
+        "contextMenus",
+        "tabs"
+    ]
+}
